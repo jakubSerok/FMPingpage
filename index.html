@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="./images/logo.svg" alt="logo">
+    <h1>We are launching <span class="soon">soon!</span></h1>
+    <p>Subscribe and get notified</p>
+    <form action="javascript:void(0);" class="form" method="POST" id="form">
+      <div class="form-control">
+        <input type="email" name="email" placeholder="Your email adress..." id="emailInput">
+        <button class="submit" id="notify-me">Notify Me</button>
+        <p class="error" id="errorMessage">Pleas provide a valid email adress</p>
+      </div>
+      
+    </form>
+    <img src="./images/illustration-dashboard.png" alt="desktop" height="400px" id="imgdesktop">
+    <div class="socials">     
+      <ion-icon class="icons" name="logo-facebook"></ion-icon>
+      <ion-icon class="icons" name="logo-twitter"></ion-icon>
+      <ion-icon class="icons" name="logo-instagram"></ion-icon>
+    </div>
+    <footer>&copy; Copyright Ping. All rights reserved.</footer>
+  </div> 
+
+  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
